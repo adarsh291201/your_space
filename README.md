@@ -25,10 +25,10 @@ BUCKET_URL
 
 ```
 
-## Currently Live in [YourSpace-Cyclic](https://determined-waistcoat-clam.cyclic.app/)
+## Currently Live in [YourSpace-Render](https://your-space-e5r3.onrender.com/)
 
 ![Home Page](/sample-pictures/home-page.jpg)
-![Home List Page](/sample-pictures/files-list.jpg)
+
 
 ## Problem Statement
 **File system CRUD API** :
@@ -68,10 +68,9 @@ read, update and delete files.
 
 
 # EndPoints
-Base URL https://determined-waistcoat-clam.cyclic.app/
+Base URL https://your-space-e5r3.onrender.com/
 ## /compose
 
-![Compose Page](/sample-pictures/compose-page.jpg)
 > It is post route that take multiple values 
 The user can upload the files from this route by clicking on Upload button from the home page 
 It will have three required column asking for title for the file name then a quick description about the file and the file itself.
@@ -89,7 +88,7 @@ On clicking Pubish Button it will redirect to Home Page and show the list of Upl
 
 ## posts/:id
 
-![Post Page](/sample-pictures/post-img.jpg)
+
 
 > This route shows a particular post (here file description)
 It will show data on the basis of id of the file { _id: requestedPostId }
